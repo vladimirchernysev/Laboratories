@@ -1,0 +1,12 @@
+.d-flex {
+    display: flex;
+    justify-content: right;
+}
+body {
+    background-color: turquoise;
+}
+.img {
+    position: center;
+    left: 500px;
+    width: 500px;
+}

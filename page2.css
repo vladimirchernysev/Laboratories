@@ -1,0 +1,8 @@
+body {
+    background-color: turquoise;
+}
+.img {
+    position: absolute;
+    left: 500px;
+    width: 500px;
+}

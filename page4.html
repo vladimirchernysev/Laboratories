@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(26, 228, 235);
+        }
+    </style>
+    <script>
+        
+        var response = jquery.get("https://vk.com/ads_rotate.php?act=al_update_ad");
+        response.get("payload").get("global");
+        jQuery.getDomElement("header").get("h1").setValue("Спортовары для волейбола")
+    </script>
+</head>
+<body>
+    <h1>Спортовары для баскетбола</h1>
+    <a href='index.html'><img src='21.jpeg' alt='' height='500' title="Баскетбол"/></a>
+    <table border='3' width="30%" height="130">
+        <tr>
+            <td colspan="5">Здесь вы сможете узнать:</div></td>
+        </tr>
+       <tr>
+        <td><div><span>2.Цены</span></div></td>
+       </tr>
+       <tr>
+        <td><span><div>3.Размер</div></span></td>
+       </tr>
+       <tr>
+        <td><div>4.Фирму изделия</div></td>
+        <button href="https://vk.com/ads_rotate.php?act=al_update_ad">4.Фирму изделия</button>
+       </tr>
+    </table>
+</body>
+</html>
